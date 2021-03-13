@@ -162,17 +162,6 @@ body::-webkit-scrollbar-thumb {
         box-shadow: 0px 0px 6px 5px #cc7410;
         position: relative;
         pointer-events: none;
-        /* &::before {
-            content: '';
-            position: absolute;
-            width: 40px;
-            height: 40px;
-            top: -3px;
-            left: -61px;
-            background-image: url(../img/Icons/arrow.svg);
-            background-size: cover;
-            transform: rotateY(180deg);
-        } */
         &::after {
             content: '';
             position: absolute;
@@ -221,60 +210,13 @@ body::-webkit-scrollbar-thumb {
     }
 
     &__foto {
-        margin-top: 70px;
+
     }
-
-    &__item-foto-gold {
-        display: flex;
-        justify-content: center;
-    }
-
-    &__item-foto-inner-gold {
-        max-width: 500px;
-        max-height: 350px;
-    }
-
-    &__foto-gold {
-        box-shadow: 0px 0px 100px gold;
-    }
-
-
-	&__item-foto-silver {
-        display: flex;
-        justify-content: space-around;
-        margin-top: 150px;
-        flex-wrap: wrap;
-	}
-
-    &__item-foto-inner-silver {
-        max-width: 400px;
-        max-height: 230px;
-    }
-
-	&__foto-silver {
-        box-shadow: 0px 0px 100px #c2c2c2;
-	}
-
-	&__item-foto-bronza {
-        display: flex;
-        justify-content: space-around;
-        margin-top: 150px;
-        flex-wrap: wrap;
-	}
-
-	&__item-foto-inner-bronza {
-        max-width: 300px;
-        max-height: 200px;
-	}
-
-	&__foto-bronza {
-        box-shadow: 0px 0px 100px #734d00;
-	}
 
 	&__item-foto-simple {
         display: flex;
         justify-content: space-around;
-        margin-top: 100px;
+        margin-top: 0px;
         flex-wrap: wrap;
 	}
 
@@ -362,7 +304,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .alexandro-escobar {
-    max-width: 130px;
+    max-width: 125px;
 }
 
 .enzo-higgins {
@@ -379,4 +321,24 @@ body::-webkit-scrollbar-thumb {
 
 .sanya-zhurbik {
     max-width: 110px;
+}
+
+.damis-kiron {
+    max-width: 100px;
+}
+
+.kenny-kolombo {
+    max-width: 115px;
+}
+
+.bey-li {
+    max-width: 70px;
+}
+
+.alex-nyberg {
+    max-width: 100px;
+}
+
+.molnia-mcqueen {
+    max-width: 120px;
 }

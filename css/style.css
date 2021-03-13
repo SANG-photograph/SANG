@@ -206,17 +206,6 @@ body::-webkit-scrollbar-thumb {
           box-shadow: 0px 0px 6px 5px #cc7410;
   position: relative;
   pointer-events: none;
-  /* &::before {
-            content: '';
-            position: absolute;
-            width: 40px;
-            height: 40px;
-            top: -3px;
-            left: -61px;
-            background-image: url(../img/Icons/arrow.svg);
-            background-size: cover;
-            transform: rotateY(180deg);
-        } */
 }
 
 .menu__link::after {
@@ -258,78 +247,13 @@ body::-webkit-scrollbar-thumb {
   text-shadow: 5px 5px 5px #000;
 }
 
-.sang__foto {
-  margin-top: 70px;
-}
-
-.sang__item-foto-gold {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.sang__item-foto-inner-gold {
-  max-width: 500px;
-  max-height: 350px;
-}
-
-.sang__foto-gold {
-  -webkit-box-shadow: 0px 0px 100px gold;
-          box-shadow: 0px 0px 100px gold;
-}
-
-.sang__item-foto-silver {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  margin-top: 150px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.sang__item-foto-inner-silver {
-  max-width: 400px;
-  max-height: 230px;
-}
-
-.sang__foto-silver {
-  -webkit-box-shadow: 0px 0px 100px #c2c2c2;
-          box-shadow: 0px 0px 100px #c2c2c2;
-}
-
-.sang__item-foto-bronza {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  margin-top: 150px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.sang__item-foto-inner-bronza {
-  max-width: 300px;
-  max-height: 200px;
-}
-
-.sang__foto-bronza {
-  -webkit-box-shadow: 0px 0px 100px #734d00;
-          box-shadow: 0px 0px 100px #734d00;
-}
-
 .sang__item-foto-simple {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin-top: 100px;
+  margin-top: 0px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -416,7 +340,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .alexandro-escobar {
-  max-width: 130px;
+  max-width: 125px;
 }
 
 .enzo-higgins {
@@ -433,4 +357,24 @@ body::-webkit-scrollbar-thumb {
 
 .sanya-zhurbik {
   max-width: 110px;
+}
+
+.damis-kiron {
+  max-width: 100px;
+}
+
+.kenny-kolombo {
+  max-width: 115px;
+}
+
+.bey-li {
+  max-width: 70px;
+}
+
+.alex-nyberg {
+  max-width: 100px;
+}
+
+.molnia-mcqueen {
+  max-width: 120px;
 }
